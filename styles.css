@@ -1,0 +1,34 @@
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao {
+    height: auto;
+    border-radius: 4em;
+    width: fit-content;
+    padding: 0.5em 2em;
+    align-self: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.texto_classe {
+    display: flex;
+    justify-content: center;
+}
+
+.texto_contador {
+    padding-right: 1em;
+}
+
+.botao_classe {
+    display: flex;
+    justify-content: center;
+}
